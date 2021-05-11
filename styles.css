@@ -1,0 +1,46 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: hsl(233, 47%, 7%);
+	color: white;
+    font-size: 15px;
+}
+
+/********* Different ways to center **********/
+
+.center-screen-flex {
+	background-color: aqua;
+	min-height: 95vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.center-screen-position {
+	background-color: blueviolet;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%);
+}
+
+/********* Different ways to center **********/
+
+.card {
+	display: flex;
+
+	background-color: hsl(244, 38%, 16%);
+}
+
+.card div {
+	flex: 1;
+}
+
+.image {
+	/* background-color: beige; */
+    background-image: url('./images/image-header-desktop.jpg');
+}
